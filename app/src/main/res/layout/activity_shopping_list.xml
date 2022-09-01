@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_purchase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/create_button_dynamic_style"
+        android:shadowColor="@color/black59"
+        android:shadowRadius="20"
+        android:text="@string/add_element_button"
+        android:textSize="23sp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/dividerViewList"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/blackBF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backToMainButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/get_back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/listName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/const_list"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/backToMainButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/listActionsButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/list_actions_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/centerview"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emptyListText"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:text="@string/empty_list1"
+        android:textSize="56sp"
+        android:textAlignment="center"
+        android:textColor="@color/black59"
+        app:layout_constraintBottom_toBottomOf="@+id/centerview"
+        app:layout_constraintEnd_toEndOf="@+id/centerview"
+        app:layout_constraintStart_toStartOf="@+id/centerview"
+        app:layout_constraintTop_toTopOf="@+id/centerview" />
+
+    <View
+        android:id="@+id/listEmptinessView"
+        android:layout_width="360dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blackEA"
+        app:layout_constraintBottom_toTopOf="@+id/dividerViewList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/listFullnessView"
+        android:layout_width="0.1dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black59"
+        app:layout_constraintBottom_toTopOf="@+id/dividerViewList"
+        app:layout_constraintStart_toStartOf="@+id/listEmptinessView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ListRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

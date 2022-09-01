@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ShoppingList:autoconst</string>
+    <string name="create_list_button">+ СОЗДАТЬ</string>
+    <string name="add_element_button">+ ДОБАВИТЬ</string>
+    <string name="const_list">Постоянный список</string>
+    <string name="lists">Списки</string>
+    <string name="bucket">Корзина</string>
+    <string name="settings">Настройки</string>
+    <string name="rename">ПЕРЕИМЕНОВАТЬ</string>
+    <string name="delete">УДАЛИТЬ</string>
+    <string name="copy">КОПИРОВАТЬ</string>
+    <string name="markall">ОТМЕТИТЬ ВСЕ ТОВАРЫ</string>
+    <string name="unmarkall">СНЯТЬ ВСЕ ОТМЕТКИ</string>
+    <string name="deletebought">УДАЛИТЬ КУПЛЕННЫЕ ТОВАРЫ</string>
+    <string name="deleteall">УДАЛИТЬ ВСЕ ТОВАРЫ</string>
+    <string name="markbought">ОТМЕТИТЬ КУПЛЕННЫМ</string>
+    <string name="unmarkbought">СНЯТЬ ОТМЕТКУ</string>
+    <string name="comment">КОММЕНТАРИЙ</string>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="const_purch">Постоянно</string>
+    <string name="all_purch">Раньше</string>
+    <string name="empty_list1">Зачем я сюда зашёл?</string>
+    <string name="empty_list2">Итак, что мне нужно?</string>
+    <string name="empty_list3">Надо успеть записать, пока не забыл</string>
+    <string name="purchase_hint">мне нужно…</string>
+    <string name="create_list_hint">Новый список</string>
+    <string name="create">СОЗДАТЬ</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="add">ДОБАВИТЬ</string>
+    <string name="change">ИЗМЕНИТЬ</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="add_comment_hint">Новый комментарий</string>
+    <string name="list_control">Управление списком</string>
+    <string name="purchase_control">Управление покупкой</string>
+    <string name="restore">Восстановить</string>
+</resources>

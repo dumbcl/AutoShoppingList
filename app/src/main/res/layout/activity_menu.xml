@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tothemainbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.75"
+        android:background="@color/maincover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menuview"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/helloworldview"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:background="@color/white"
+        android:text="@string/hello_world"
+        android:textSize="60dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/menuview"
+        app:layout_constraintStart_toStartOf="@+id/menuview"
+        app:layout_constraintTop_toTopOf="@+id/menuview" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tolistsbutton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/chosen_lists_button"
+        app:layout_constraintEnd_toEndOf="@+id/menuview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/menuview"
+        app:layout_constraintTop_toTopOf="@+id/menuview"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tobucketbutton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/unchosen_bucket_button"
+        app:layout_constraintEnd_toEndOf="@+id/menuview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/menuview"
+        app:layout_constraintTop_toTopOf="@+id/menuview"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/creditsview"
+        android:layout_width="400dp"
+        android:layout_height="466dp"
+        android:background="@drawable/credits"
+        app:layout_constraintBottom_toBottomOf="@+id/menuview"
+        app:layout_constraintEnd_toEndOf="@+id/menuview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/menuview"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

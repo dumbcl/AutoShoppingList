@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="540dp"
+    android:layout_height="400dp">
+
+    <View
+        android:id="@+id/viewBack"
+        android:layout_width="540dp"
+        android:layout_height="400dp"
+        android:background="@drawable/dialog_drawable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/controlListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/list_control"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/markAllButton"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/control_button_dynamic"
+        android:text="@string/markall"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/controlListText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/unmarkAllButton"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/control_button_dynamic"
+        android:text="@string/unmarkall"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/controlListText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deleteBoughtButton"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/control_button_dynamic"
+        android:text="@string/deletebought"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/controlListText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deleteAllButton"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/control_button_dynamic"
+        android:text="@string/deleteall"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/controlListText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
