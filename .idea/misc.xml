@@ -8,11 +8,13 @@
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/bought_purchase.xml" value="0.236" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/control_button.xml" value="0.236" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/control_button_dynamic.xml" value="0.236" />
+        <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/control_button_pressed.xml" value="0.159" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/create_button_dynamic_style.xml" value="0.1795" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/create_button_style.xml" value="0.1805" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/create_button_style_pressed.xml" value="0.1805" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/dialog_drawable.xml" value="0.236" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/ic_launcher_background.xml" value="0.198" />
+        <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/purchases_in_button.xml" value="0.1" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/purchases_out_button.xml" value="0.236" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/drawable/shopping_list_example.xml" value="0.236" />
         <entry key="..\:/Users/Konstantin/AndroidStudioProjects/ShoppigList/app/src/main/res/layout/activity_adding_purchases.xml" value="0.264" />
